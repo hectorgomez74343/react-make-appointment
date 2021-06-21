@@ -9,7 +9,7 @@ const INTIAL_STATE = {
       name: "Nicholas",
       lastName: "Tesla",
       time: date.toString(),
-      type: "$10 Cable and Internet",
+      type: "Talk to a doctor",
       phoneNumber: "202-000-3949",
       address: "232 A St Austin Texas 29292",
       email: "nickolas@gmail.com",
