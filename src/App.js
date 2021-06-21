@@ -4,7 +4,7 @@ import { Switch, withRouter, Route } from "react-router-dom";
 import IndexPage from "./components/IndexPage";
 import Scheduler from "./components/Scheduler";
 import ConfirmationPage from "./components/ConfirmationPage";
-import Orders from "./components/Orders";
+import Patients from "./components/Patients";
 
 class App extends React.PureComponent {
   render() {
@@ -17,7 +17,7 @@ class App extends React.PureComponent {
           path="/confirmation-order"
           render={() => <ConfirmationPage />}
         />
-        <Route exact path="/orders" render={() => <Orders />} />
+        <Route exact path="/patients" render={() => <Patients />} />
       </Switch>
     );
   }

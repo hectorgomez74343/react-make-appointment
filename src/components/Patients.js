@@ -4,7 +4,7 @@ import { withRouter } from "react-router-dom";
 
 import { removeOrder } from "../redux/actions/ordersActions";
 
-function Orders() {
+function Patients() {
   const orders = useSelector((state) => state.ordersReducer.orders);
   const dispatch = useDispatch();
 
@@ -59,4 +59,4 @@ function Orders() {
   );
 }
 
-export default withRouter(Orders);
+export default withRouter(Patients);
